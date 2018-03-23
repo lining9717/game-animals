@@ -2,6 +2,7 @@ package com.example.lining.game_animals;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.view.View;
@@ -19,6 +20,9 @@ public class Login extends Activity {
 
         Button bt_play = findViewById(R.id.bt_play);
         Button bt_exit = findViewById(R.id.bt_exit);
+        Typeface typeface = Typeface.createFromAsset(getAssets(),"fonts/font_one.TTF");
+        bt_play.setTypeface(typeface);
+        bt_exit.setTypeface(typeface);
 
         bt_play.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Game-Animals</string>
+    <string name="app_name">Find it!</string>
+    <string name="title">if you can , find it!</string>
 </resources>
