@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_blue_game"
+    >
+
+    <Button
+        android:id="@+id/bt_play"
+        android:layout_width="217dp"
+        android:layout_height="46dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/selector_color"
+        android:fontFamily="@font/font_one"
+        android:textSize="35sp"
+        android:textColor="@color/blue"
+        android:text="Play"
+        android:textAllCaps="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.733" />
+
+    <Button
+        android:id="@+id/bt_exit"
+        android:layout_width="217dp"
+        android:layout_height="46dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/selector_color"
+        android:fontFamily="@font/font_one"
+        android:textSize="35sp"
+        android:textColor="@color/blue"
+        android:textAllCaps="true"
+        android:text="exit"
+        app:layout_constraintEnd_toEndOf="@+id/bt_play"
+        app:layout_constraintStart_toStartOf="@+id/bt_play"
+        app:layout_constraintTop_toBottomOf="@+id/bt_play" />
+</android.support.constraint.ConstraintLayout>
