@@ -82,7 +82,7 @@ public class ToastUtil {
     }
 
     private void showUntilCancel() {
-        if (canceled) { //如果已经取消显示，就直接return
+        if (canceled) { 
             return;
         }
         mToast.show();
